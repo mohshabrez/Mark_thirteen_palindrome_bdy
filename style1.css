@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+
+
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body{
+    margin:0;
+    padding: 0;
+    background-color: rgb(253, 249, 249);
+    /* background-image: linear-gradient(0deg, #f4f2f7 0%, #f7f4f2 100%); */
+}
+
+
+
+div{
+    width: 60%;
+    margin:50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap:1rem;
+    padding: 2rem;
+    /* background-image: linear-gradient(0deg, #6f5d9a 0%, #934223 100%); */
+    /* border-radius: 3rem; */
+}
+
+h1{
+    font-family: 'Ms Madi', cursive ;
+}
+
+label{
+    font-family: cursive;
+
+}
+
+input{
+    width: 50%;
+    padding: 5px;
+    border-radius: 1rem;
+    /* border-image:linear-gradient(0deg, #0a3457 0%, #934223 100%);  */
+    border-color: #934223;
+    font-family: 'Ms Madi', cursive ;
+}
+
+button{
+    border-radius: 10px;
+    font-family: cursive;
+    background-color: antiquewhite;
+
+}
+
+button:hover{
+    background-color: rgb(201, 192, 19);
+
+}
+
+p{
+    display: flex;
+    flex-direction: column;
+    color: #de0c8d;
+    font-family: cursive;
+    font-size: larger;
+    align-items: center;
+    text-align: center;
+    margin-left: 2px;
+}
+
+#footer-id{
+    color: black;
+}
+
+a, img, li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: inline;
+    width: 2rem;
+    gap:20px;
+    padding: 2px;
+    margin-right: 3px;
+}
